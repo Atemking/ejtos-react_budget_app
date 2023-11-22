@@ -7,7 +7,7 @@ const Locationcurrency = () => {
 
     const changeLocation = (val)=>{
             dispatch({
-                type: 'CHG_LOCATION',
+                type: 'CHG_CURRENCY',
                 payload: val,
             })
     }
